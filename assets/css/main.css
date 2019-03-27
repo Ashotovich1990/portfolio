@@ -1794,6 +1794,29 @@ input, select, textarea {
 		font-size: 2em;
 	}
 
+	.skills {
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		width: 300px;		
+	}
+
+	.skills > li {
+	    display: block;
+		font-size: 300%;
+		float: left;
+	}
+
+	#skill {
+		display: flex;
+		margin-bottom: 20px;
+	}
+
+	h1 {
+		padding-bottom: 20px;
+	}
+
+
 /* Form */
 
 	form {
