@@ -1797,14 +1797,13 @@ input, select, textarea {
 	.skills {
 		list-style-type: none;
 		display: flex;
-		flex-direction: row;
-		width: 300px;		
+		flex-wrap: wrap;		
 	}
 
 	.skills > li {
-	    display: block;
+		display: block;
+		margin-bottom: 25px;
 		font-size: 300%;
-		float: left;
 	}
 
 	#skill {
