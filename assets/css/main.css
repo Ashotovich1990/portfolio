@@ -1815,6 +1815,10 @@ input, select, textarea {
 		padding-bottom: 20px;
 	}
 
+	a {
+		cursor: pointer;
+	}
+
 
 /* Form */
 
