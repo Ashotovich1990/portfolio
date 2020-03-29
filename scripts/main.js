@@ -12,9 +12,7 @@ const changeNavBar = () => {
     } else {
       navBar.classList.remove('scroll');
     }
-    console.log(scrollPos); 
-    console.log(navBar.classList);
-
+   
     if (scrollPos < 740) {
       home.classList.add('nav-selected');
       skills.classList.remove('nav-selected');
